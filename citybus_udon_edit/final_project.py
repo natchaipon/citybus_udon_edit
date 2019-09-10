@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtWidgets import QWidget , QApplication , QMainWindow , QMessageBox
 from PyQt5.QtCore import *
-from citybus_udon1 import Ui_city_bus
+from citybus_udon_ui import Ui_city_bus
 from alert import Ui_alert
 import time
 import RPi.GPIO as GPIO
@@ -11,10 +11,10 @@ from datetime import datetime
 
 # conn = sqlite3.connect('citybus_udon.db')
 
-money = 0
+money = 29
 end_time = 0
 state = 0
-price_user = 0
+price_user = 15
 time_sleep_mqtt = 0
 end_time_alert = 0
 
